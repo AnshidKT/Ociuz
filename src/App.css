@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 182, 182),
+    rgb(243, 241, 255)
+  );
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sub-container {
+  width: 100%;
+  height: 80%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.heading {
+  font-size: 39px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: -webkit-linear-gradient(#00106d, #0595b9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.form {
+  width: 50%;
+  height: 80%;
+  /* background-color: #0595b9; */
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  width: 250px;
+  height: 40px;
+  border-radius: 7px;
+  outline: none;
+  border: 0;
+  padding-left: 20px;
+}
+.submit-btn {
+  width: 120px;
+  height: 30px;
+  border: 0;
+  border-radius: 7px;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  color: rgb(0, 0, 0);
+  background-color: #ec6a00;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  font-weight: 600;
+}
+.submit-btn:hover {
+  color: rgb(0, 0, 0);
+  background-color: #e97c23;
+}
+.employee-box {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  /* background-color: burlywood; */
+}
+.table {
+  width: 100%;
+  height: 300px;
+  /* background-color: #0595b9; */
+}
+.lists {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.edt-btn {
+  width: 50px;
+  height: 20px;
+  margin: 3px;
+  border: 0;
+  border-radius: 3px;
+  background-color: rgb(6, 185, 0);
+  color: white;
+}
+.dlt-btn {
+  width: 50px;
+  height: 20px;
+  margin: 3px;
+  border: 0;
+  border-radius: 3px;
+  background-color: rgb(185, 0, 0);
+  color: white;
+}
